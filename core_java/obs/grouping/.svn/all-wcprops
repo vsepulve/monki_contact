@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/observatorio_web/!svn/ver/1593/MonkeyContact/core_java/obs/grouping
+END
+Grouping.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/observatorio_web/!svn/ver/1562/MonkeyContact/core_java/obs/grouping/Grouping.java
+END
+GroupingLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/observatorio_web/!svn/ver/1545/MonkeyContact/core_java/obs/grouping/GroupingLogger.java
+END
+Feature.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/observatorio_web/!svn/ver/1537/MonkeyContact/core_java/obs/grouping/Feature.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/observatorio_web/!svn/ver/1552/MonkeyContact/core_java/obs/grouping/Group.java
+END
+ProcessingCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/observatorio_web/!svn/ver/1593/MonkeyContact/core_java/obs/grouping/ProcessingCell.java
+END
+TestProcessingCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/observatorio_web/!svn/ver/1553/MonkeyContact/core_java/obs/grouping/TestProcessingCell.java
+END
+GroupSeparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/observatorio_web/!svn/ver/1542/MonkeyContact/core_java/obs/grouping/GroupSeparator.java
+END
+FeatureString.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/observatorio_web/!svn/ver/1537/MonkeyContact/core_java/obs/grouping/FeatureString.java
+END
+GroupingRules.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/observatorio_web/!svn/ver/1554/MonkeyContact/core_java/obs/grouping/GroupingRules.java
+END
+TestGroupingRules.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/observatorio_web/!svn/ver/1553/MonkeyContact/core_java/obs/grouping/TestGroupingRules.java
+END
+NamesGrouper.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/observatorio_web/!svn/ver/1542/MonkeyContact/core_java/obs/grouping/NamesGrouper.java
+END

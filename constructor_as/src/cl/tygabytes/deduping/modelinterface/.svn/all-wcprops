@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/observatorio_web/!svn/ver/466/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/modelinterface
+END
+IEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/modelinterface/IEmail.java
+END
+IPostalAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/modelinterface/IPostalAddress.java
+END
+IContact.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/modelinterface/IContact.java
+END
+IEducation.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/observatorio_web/!svn/ver/466/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/modelinterface/IEducation.java
+END
+IPhoneNumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/modelinterface/IPhoneNumber.java
+END
+INames.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/modelinterface/INames.java
+END
+IOrganization.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/observatorio_web/!svn/ver/466/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/modelinterface/IOrganization.java
+END
+IDemographics.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/observatorio_web/!svn/ver/466/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/modelinterface/IDemographics.java
+END
+IExtendedProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/modelinterface/IExtendedProperty.java
+END
+IIm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/modelinterface/IIm.java
+END

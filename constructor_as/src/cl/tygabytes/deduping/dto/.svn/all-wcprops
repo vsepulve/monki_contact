@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/dto
+END
+IUPhoneNumberDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/dto/IUPhoneNumberDTO.java
+END
+IUNamesDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/dto/IUNamesDTO.java
+END
+DAOFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/dto/DAOFactory.java
+END
+IUEmailDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/dto/IUEmailDTO.java
+END
+IUPostalAddressDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/dto/IUPostalAddressDTO.java
+END
+IUContactDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/observatorio_web/!svn/ver/420/MonkeyContact/constructorAS/src/cl/tygabytes/deduping/dto/IUContactDTO.java
+END

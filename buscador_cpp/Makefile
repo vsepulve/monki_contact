@@ -11,7 +11,7 @@ MYSQLLIBS = -Wl,-Bsymbolic-functions -rdynamic -L/usr/lib/mysql -lmysqlclient
 
 CPP = g++
 
-all: prueba_servidores
+all: prueba_servidores activar_servidor_consultas activar_servidor_vocabulario
 
 # Programas
 

@@ -3,7 +3,7 @@ BINDIR = bin
 DATADIR = data
 LIBDIR = lib
 INCLDIR = includes
-CPPFLAGS = -m32 -O3 -Wall -I./includes/ -L./lib/
+CPPFLAGS = -O3 -Wall -I./includes/ -L./lib/
 #MYSQLCFLAGS = $(mysql_config --cflags)
 MYSQLCFLAGS = -I/usr/include/mysql  -DBIG_JOINS=1  -fno-strict-aliasing   -DUNIV_LINUX -DUNIV_LINUX
 #MYSQLLIBS = $(mysql_config --libs)

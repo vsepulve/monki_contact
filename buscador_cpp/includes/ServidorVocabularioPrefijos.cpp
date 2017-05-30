@@ -528,7 +528,7 @@ int ServidorVocabularioPrefijos::consultar(char *consulta, char *salida){
 		}
 		
 		//ultimo grupo (con extension), el iterador quedo consistente del for anterior
-		sprintf(salida+strlen(salida), "%d %s %2.2f ", 1+mapa_respuesta[user_id].size(), it_terms->c_str(), (float)puntaje_normal);
+		sprintf(salida+strlen(salida), "%d %s %2.2f ", (unsigned int)(1+mapa_respuesta[user_id].size()), it_terms->c_str(), (float)puntaje_normal);
 		for(it_terms=mapa_respuesta[user_id].begin(); it_terms!=mapa_respuesta[user_id].end(); it_terms++){
 			sprintf(salida+strlen(salida), "%s %2.2f ", it_terms->c_str(), (float)puntaje_sugerencia);
 		}

@@ -69,11 +69,12 @@ int main(int argc, char* argv[]){
 	//grupos
 	//servidor->cargarGrupos(archivo_grupos, binario);
 	
-	int k, largo_res;
+	int k;
+	int largo_res;
 	int max_linea=1024;
-	char *entrada=new char[max_linea];
-	char *consulta=new char[max_linea];
-	char *respuesta=new char[max_linea];
+	char entrada[max_linea];
+	char consulta[max_linea];
+	char respuesta[max_linea];
 	
 	k=10;
 	
@@ -129,7 +130,7 @@ int main(int argc, char* argv[]){
 		
 		cout<<"Consulta voc: "<<consulta<<"\n";
 		largo_res=servidor_voc->consultar(consulta, entrada);
-		cout<<"respuesta voc: "<<entrada<<"\n";
+		cout<<"respuesta voc: "<<entrada<<" ("<<largo_res<<")\n";
 		
 		//preparar consulta final
 //		sprintf(consulta, "%d %d %s ", user_id, k, entrada);
@@ -138,13 +139,11 @@ int main(int argc, char* argv[]){
 		
 		cout<<"Consulta indice: "<<consulta<<"\n";
 		largo_res=servidor->consultar(consulta, respuesta);
-		cout<<"respuesta indice: "<<respuesta<<"\n";
+		cout<<"respuesta indice: "<<respuesta<<" ("<<largo_res<<")\n";
 		
 		cout<<"\n";
 	}
 	
-	delete [] consulta;
-	delete [] respuesta;
 	
 	delete servidor_voc;
 	

@@ -60,10 +60,12 @@ function direct_query($query, $server, $port){
                 echo "Connected $port\n";
 
                 echo "Q: $query\n";
-                fputs($conexion, utf8_encode($query));
+#                fputs($conexion, utf8_encode($query));
+                fputs($conexion, $query);
                 fflush($conexion);
 
-                $result=utf8_decode(fread($conexion, 1024));
+#                $result=utf8_decode(fread($conexion, 1024));
+                $result=fread($conexion, 1024);
                 fclose($conexion);
                 echo "R: $result\n";
         }
@@ -91,10 +93,12 @@ function search_multi_v2(&$users, &$query_terms, $k, $server, $port_voc, $port_i
 		}
 		
 		echo "Q: $q_voc\n";
-		fputs($conexion, utf8_encode($q_voc));
+#		fputs($conexion, utf8_encode($q_voc));
+		fputs($conexion, $q_voc);
 		fflush($conexion);
 		
-		$r_voc=utf8_decode(fread($conexion, 1024));
+#		$r_voc=utf8_decode(fread($conexion, 1024));
+		$r_voc=fread($conexion, 1024);
 		fclose($conexion);
 		echo "R: $r_voc\n";
 	}
@@ -109,14 +113,17 @@ function search_multi_v2(&$users, &$query_terms, $k, $server, $port_voc, $port_i
 		$q_index="ima $k ".$r_voc;
 		
 		echo "Q: $q_index\n";
-		fputs($conexion, utf8_encode($q_index));
+#		fputs($conexion, utf8_encode($q_index));
+		fputs($conexion, $q_index);
 		fflush($conexion);
 		
-		$r_index=trim(utf8_decode(fread($conexion, 1024)));
+#		$r_index=trim(utf8_decode(fread($conexion, 1024)));
+		$r_index=trim(fread($conexion, 1024));
 		fclose($conexion);
 		echo "R: $r_index\n";
 		
-		$arr=split("[ ]", $r_index);
+#		$arr=split("[ ]", $r_index);
+		$arr = str_split($r_index);
 		return $arr;
 		
 	}
